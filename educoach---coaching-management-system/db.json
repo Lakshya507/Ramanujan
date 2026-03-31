@@ -1,0 +1,135 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Aryan Singh",
+      "rollNo": "JEE101",
+      "category": "JEE",
+      "class": "12th",
+      "parentId": "p1",
+      "marks": {
+        "physics": 95,
+        "chemistry": 92,
+        "math": 98
+      }
+    },
+    {
+      "id": "2",
+      "name": "Isha Verma",
+      "rollNo": "NEET102",
+      "category": "NEET",
+      "class": "12th",
+      "parentId": "p2",
+      "marks": {
+        "physics": 88,
+        "chemistry": 95,
+        "biology": 94
+      }
+    },
+    {
+      "id": "3",
+      "name": "Rahul Kumar",
+      "rollNo": "B103",
+      "category": "Boards",
+      "class": "10th",
+      "parentId": "p3",
+      "marks": {
+        "math": 90,
+        "science": 85,
+        "english": 88
+      }
+    }
+  ],
+  "teachers": [
+    {
+      "id": "t1",
+      "name": "Dr. R.K. Yadav",
+      "subject": "Physics (JEE/NEET)",
+      "experience": "15 years",
+      "image": "https://picsum.photos/seed/teacher1/200/200"
+    },
+    {
+      "id": "t2",
+      "name": "Prof. Sunita Rao",
+      "subject": "Mathematics (JEE/Boards)",
+      "experience": "12 years",
+      "image": "https://picsum.photos/seed/teacher2/200/200"
+    }
+  ],
+  "parents": [
+    {
+      "id": "p1",
+      "name": "Suresh Singh",
+      "studentId": "1",
+      "password": "pass"
+    },
+    {
+      "id": "p2",
+      "name": "Meena Verma",
+      "studentId": "2",
+      "password": "pass"
+    },
+    {
+      "id": "p3",
+      "name": "Alok Kumar",
+      "studentId": "3",
+      "password": "pass"
+    }
+  ],
+  "topPerformers": [
+    {
+      "id": "tp1",
+      "name": "Aryan Singh",
+      "score": "99.8 Percentile",
+      "category": "JEE Main",
+      "image": "https://picsum.photos/seed/student1/400/400"
+    },
+    {
+      "id": "tp2",
+      "name": "Isha Verma",
+      "score": "680/720",
+      "category": "NEET",
+      "image": "https://picsum.photos/seed/student2/400/400"
+    }
+  ],
+  "results": [
+    {
+      "id": "r1",
+      "studentName": "Aryan Singh",
+      "score": "99.8%",
+      "rank": "AIR 150"
+    },
+    {
+      "id": "r2",
+      "studentName": "Isha Verma",
+      "score": "94.4%",
+      "rank": "AIR 1200"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "q1",
+      "text": "An equation for me has no meaning, unless it expresses a thought of God.",
+      "author": "Srinivasa Ramanujan"
+    },
+    {
+      "id": "q2",
+      "text": "Hard work beats talent when talent doesn't work hard.",
+      "author": "Tim Notke"
+    }
+  ],
+  "branches": [
+    {
+      "id": "b1",
+      "name": "Ramanujan Classes - City Center",
+      "address": "Sector 15, Knowledge Park, New Delhi",
+      "phone": "+91 98765 43210"
+    },
+    {
+      "id": "b2",
+      "name": "Ramanujan Classes - South Campus",
+      "address": "Hauz Khas, Near Metro Station, New Delhi",
+      "phone": "+91 98765 43211"
+    }
+  ]
+}
